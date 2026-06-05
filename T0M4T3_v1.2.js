@@ -282,7 +282,7 @@ function sprite(img,sx,sy,w1,h1,w2,h2,dx,dy,r,Cx,Cy){
 function text(x,y,t,c,s){
 
     ctx.fillStyle = c || "grey"
-    ctx.font = ( s || 10 )+"px trebuchet ms";
+    ctx.font = "900 "+( s || 10 )+"px Arial";
     //ctx.textRendering = "geometricPrecision"
     ctx.fillText( t , x , y );
 }
