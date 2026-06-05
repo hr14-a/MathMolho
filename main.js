@@ -33,7 +33,7 @@ function MAIN()
     }
     
     tecladoNU.main()
-    text(20,innerHeight-20,"v"+APP.version + " Ⓡ T0M4T3 :|","black",10);
+    text(20,innerHeight-20,"v"+APP.version + " Ⓡ T0M4T3 :|","black",12);
     loop(MAIN);
 }
 MAIN();
