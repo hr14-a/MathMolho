@@ -1,1 +1,235 @@
-var _0xag9c4a=(348402^348405)+(608616^608620);const T0M4T3={'\u006E\u0061\u006D\u0065':"T0M4T3","version":"18-abri-2025/00:25AM","updates":["\u0032\u0031\u002F\u0030\u0034\u002F\u0032\u0030\u0032\u0035\u002D\u0032\u0033\u003A\u0033\u0033\u0050\u004D","\u0030\u0031\u002F\u0030\u0035\u002F\u0032\u0030\u0032\u0035\u002D\u0032\u0033\u003A\u0034\u0031\u0050\u004D","\u0033\u0031\u002F\u0030\u0035\u002F\u0032\u0030\u0032\u0035\u002D\u0032\u0032\u003A\u0033\u0036\u0050\u004D"]};_0xag9c4a="bqfloc".split("").reverse().join("");let _0xbgcbf;var canvas=document['\u0071\u0075\u0065\u0072\u0079\u0053\u0065\u006C\u0065\u0063\u0074\u006F\u0072']("\u0063\u0061\u006E\u0076\u0061\u0073");_0xbgcbf=(933540^933539)+(927268^927270);var _0xa79c=(790837^790832)+(814215^814213);var ctx=canvas['\u0067\u0065\u0074\u0043\u006F\u006E\u0074\u0065\u0078\u0074']("\u0032\u0064",{"apha":false});_0xa79c=(420771^420775)+(203158^203167);let _0x7493fc;var TOUCH={'\u0078':Infinity,'\u0079':0,'\u0077':10,'\u0068':10};_0x7493fc=(677721^677726)+(556247^556240);var _0x82ae3f=(732870^732879)+(883444^883452);var CLICK={'\u0078':Infinity,'\u0079':Infinity,'\u0077':10,'\u0068':10,"func":function(){}};_0x82ae3f=(670593^670593)+(927724^927723);var MOUSE={"show":!![],'\u0078':Infinity,'\u0079':Infinity,'\u0077':32,'\u0068':32};var before,now,fps;before=Date['\u006E\u006F\u0077']();fps=621659^621659;fpsLoop=879115^879115;requestAnimationFrame(function loop(){now=Date['\u006E\u006F\u0077']();if(fpsLoop%(815996^815936)==(874760^874760)){fps=Math['\u0072\u006F\u0075\u006E\u0064']((704260^703724)/(now-before));}before=now;fpsLoop++;requestAnimationFrame(loop);});function print(t){console['\u006C\u006F\u0067'](t);}function loop(f){requestAnimationFrame(f);}function resizer(){canvas['\u0077\u0069\u0064\u0074\u0068']=innerWidth;canvas['\u0068\u0065\u0069\u0067\u0068\u0074']=innerHeight;}function clear(arr){let _0x45502e=[];for(let i in arr){if(arr[i]!==undefined){_0x45502e['\u0070\u0075\u0073\u0068'](arr[i]);}}return _0x45502e;}function pickRandom(min,max){return Math['\u0066\u006C\u006F\u006F\u0072'](Math['\u0072\u0061\u006E\u0064\u006F\u006D']()*(max-min)+min);}function colider(rect1,rect2){if(rect1['\u0078']<rect2['\u0078']+rect2['\u0077']&&rect1['\u0078']+rect1['\u0077']>rect2['\u0078']&&rect1['\u0079']<rect2['\u0079']+rect2['\u0068']&&rect1['\u0079']+rect1['\u0068']>rect2['\u0079']){return!![];}else{return false;}}function pickColor(x,y,_0xb6dd){let _0xb_0x1a2=ctx['\u0067\u0065\u0074\u0049\u006D\u0061\u0067\u0065\u0044\u0061\u0074\u0061'](x,y,953391^953390,995647^995646);_0xb6dd=(741233^741236)+(151728^151730);_0xb_0x1a2['\u0072\u0067\u0062']=`rgba(${_0xb_0x1a2['\u0064\u0061\u0074\u0061']['\u006A\u006F\u0069\u006E']("\u002C")})`;return _0xb_0x1a2;}function choose(array){return array[pickRandom(488315^488315,array['\u006C\u0065\u006E\u0067\u0074\u0068'])];}function random(n){return Math['\u0072\u0061\u006E\u0064\u006F\u006D'](n);}function angle(x1,y1,x2,y2){return Math['\u0061\u0074\u0061\u006E\u0032'](x2-x1,y2-y1)*(789491^789319)/Math['\u0050\u0049'];}function dist(x,y,x1,y1){var _0x807a=x-x1;var _0xd6cacd=y-y1;var _0x_0xe1b=(382070^382069)+(511667^511674);var _0x5b3a=Math['\u0073\u0071\u0072\u0074'](_0x807a**(426771^426769)+_0xd6cacd**(747536^747538));_0x_0xe1b=814897^814904;return _0x5b3a;}function max(n,m){return n>m?m:n;}function min(n,m){return n<m?m:n;}function reLoad(n,max,back){if(n>max){n=back;}return back;}function animationLinear(n,scale,speed){if(speed>(582952^582952)){if(n<scale){n+=speed;n=max(n,scale);}else{n-=speed;n=min(n,scale);}}else{if(n>scale){n+=speed;n=max(n,scale);}else{n-=speed;n=min(n,scale);}}n+=speed;return n;}function download(filename,text){var a=window['\u0064\u006F\u0063\u0075\u006D\u0065\u006E\u0074']['\u0063\u0072\u0065\u0061\u0074\u0065\u0045\u006C\u0065\u006D\u0065\u006E\u0074']("\u0061");a['\u0068\u0072\u0065\u0066']=window['\u0055\u0052\u004C']['\u0063\u0072\u0065\u0061\u0074\u0065\u004F\u0062\u006A\u0065\u0063\u0074\u0055\u0052\u004C'](new Blob([text],{'\u0074\u0079\u0070\u0065':"\u0074\u0065\u0078\u0074\u002F\u0063\u0073\u0076"}));a['\u0064\u006F\u0077\u006E\u006C\u006F\u0061\u0064']=filename;document['\u0062\u006F\u0064\u0079']['\u0061\u0070\u0070\u0065\u006E\u0064\u0043\u0068\u0069\u006C\u0064'](a);a['\u0063\u006C\u0069\u0063\u006B']();document['\u0062\u006F\u0064\u0079']['\u0072\u0065\u006D\u006F\u0076\u0065\u0043\u0068\u0069\u006C\u0064'](a);}var FILES={'\u0061\u0074\u0075\u0061\u006C':0,'\u006D\u0061\u0078':0};function src(url,_0xbgaf){FILES['\u006D\u0061\u0078']++;let _0x40d=new Image();_0xbgaf=813873^813878;_0x40d['\u0073\u0072\u0063']=url;_0x40d['\u006F\u006E\u006C\u006F\u0061\u0064']=function(){FILES['\u0061\u0074\u0075\u0061\u006C']++;};return _0x40d;}function music(base64){let _0xcbd5d=new Audio();_0xcbd5d['\u0073\u0072\u0063']=base64;FILES['\u006D\u0061\u0078']++;_0xcbd5d['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u006C\u006F\u0061\u0064\u0065\u0064\u0064\u0061\u0074\u0061",()=>{FILES['\u0061\u0074\u0075\u0061\u006C']++;});return _0xcbd5d;}function saveDATA(key,value){return window['\u006C\u006F\u0063\u0061\u006C\u0053\u0074\u006F\u0072\u0061\u0067\u0065']['\u0073\u0065\u0074\u0049\u0074\u0065\u006D'](key,value);}function getDATA(key){return window['\u006C\u006F\u0063\u0061\u006C\u0053\u0074\u006F\u0072\u0061\u0067\u0065']['\u0067\u0065\u0074\u0049\u0074\u0065\u006D'](key);}function delDATA(key,value){return window['\u006C\u006F\u0063\u0061\u006C\u0053\u0074\u006F\u0072\u0061\u0067\u0065']['\u0072\u0065\u006D\u006F\u0076\u0065\u0049\u0074\u0065\u006D'](key);}let _0xd93a;let cn=document['\u0063\u0072\u0065\u0061\u0074\u0065\u0045\u006C\u0065\u006D\u0065\u006E\u0074']("\u0063\u0061\u006E\u0076\u0061\u0073");_0xd93a='\u0068\u0063\u0067\u0063\u0062\u0065';let _0x6be3c;let ct=cn['\u0067\u0065\u0074\u0043\u006F\u006E\u0074\u0065\u0078\u0074']("\u0032\u0064",{'\u0061\u006C\u0070\u0068\u0061':false});_0x6be3c='\u0070\u006B\u0070\u0064\u0069\u0064';function colorPixelInImage(image,x,y){let _0xcece9c=image;cn['\u0077\u0069\u0064\u0074\u0068']=_0xcece9c['\u0077\u0069\u0064\u0074\u0068'];cn['\u0068\u0065\u0069\u0067\u0068\u0074']=_0xcece9c['\u0068\u0065\u0069\u0067\u0068\u0074'];ct['\u0063\u006C\u0065\u0061\u0072\u0052\u0065\u0063\u0074'](152481^152481,458787^458787,_0xcece9c['\u0077\u0069\u0064\u0074\u0068'],_0xcece9c['\u0068\u0065\u0069\u0067\u0068\u0074']);ct['\u0069\u006D\u0061\u0067\u0065\u0053\u006D\u006F\u006F\u0074\u0068\u0069\u006E\u0067\u0045\u006E\u0061\u0062\u006C\u0065\u0064']=false;ct['\u0064\u0072\u0061\u0077\u0049\u006D\u0061\u0067\u0065'](_0xcece9c,363521^363521,419095^419095,_0xcece9c['\u0077\u0069\u0064\u0074\u0068'],_0xcece9c['\u0068\u0065\u0069\u0067\u0068\u0074'],446127^446127,842888^842888,_0xcece9c['\u0077\u0069\u0064\u0074\u0068'],_0xcece9c['\u0077\u0069\u0064\u0074\u0068']);return ct['\u0067\u0065\u0074\u0049\u006D\u0061\u0067\u0065\u0044\u0061\u0074\u0061'](x,y,497479^497478,287686^287687)['\u0064\u0061\u0074\u0061'];}function cos(n){return Math['\u0063\u006F\u0073'](n);}function sin(n){return Math['\u0073\u0069\u006E'](n);}function abs(n){return Math['\u0061\u0062\u0073'](n);}function tan(n){return Math['\u0074\u0061\u006E'](n);}function tanh(n,n2){return Math['\u0074\u0061\u006E\u0068'](n,n2);}function floor(n){return Math['\u0066\u006C\u006F\u006F\u0072'](n);}function sqrt(n){return Math['\u0073\u0071\u0072\u0074'](n);}function button(x,y,w,h,f,c,per){rect(x,y,w,h,c);let _0x2c93a={'\u0078':x,'\u0079':y,'\u0077':w,'\u0068':h};if(per==undefined){per=false;}if(colider(CLICK,_0x2c93a)){f();if(!per){CLICK['\u0078']=Infinity;}}}function background(c){rect(630063^630063,228205^228205,innerWidth,innerHeight,c);}function line(x,y,x2,y2,c,width){ctx['\u006D\u006F\u0076\u0065\u0054\u006F'](x,y);ctx['\u006C\u0069\u006E\u0065\u0054\u006F'](x2,y2);ctx['\u006C\u0069\u006E\u0065\u0057\u0069\u0064\u0074\u0068']=width||695560^695561;ctx['\u0073\u0074\u0072\u006F\u006B\u0065\u0053\u0074\u0079\u006C\u0065']=c||"\u0067\u0072\u0065\u0079";ctx['\u0073\u0074\u0072\u006F\u006B\u0065']();}function rect(x,y,w,h,c){ctx['\u0066\u0069\u006C\u006C\u0053\u0074\u0079\u006C\u0065']=c;ctx['\u0066\u0069\u006C\u006C\u0052\u0065\u0063\u0074'](x,y,w,h);}function sprite(img,sx,sy,w1,h1,w2,h2,dx,dy,r,Cx,Cy){r=r||674603^674603;if(r!==(748016^748016)){cx=Cx||dx+0.5*w2;cy=Cy||dy+0.5*h2;if(r!==(417781^417781)){ctx['\u0073\u0061\u0076\u0065']();}ctx['\u0074\u0072\u0061\u006E\u0073\u006C\u0061\u0074\u0065'](cx,cy);ctx['\u0072\u006F\u0074\u0061\u0074\u0065'](r*Math['\u0050\u0049']/(253969^254117));ctx['\u0074\u0072\u0061\u006E\u0073\u006C\u0061\u0074\u0065'](-cx,-cy);}ctx['\u0069\u006D\u0061\u0067\u0065\u0053\u006D\u006F\u006F\u0074\u0068\u0069\u006E\u0067\u0045\u006E\u0061\u0062\u006C\u0065\u0064']=false;ctx['\u0064\u0072\u0061\u0077\u0049\u006D\u0061\u0067\u0065'](img,floor(sx),floor(sy),floor(w1),floor(h1),floor(dx),floor(dy),floor(w2),floor(h2));if(r!==(377324^377324)){ctx['\u0072\u0065\u0073\u0074\u006F\u0072\u0065']();}}function text(x,y,t,c,s){ctx['\u0066\u0069\u006C\u006C\u0053\u0074\u0079\u006C\u0065']=c||"yerg".split("").reverse().join("");ctx['\u0066\u006F\u006E\u0074']="\u0039\u0030\u0030\u0020"+(s||852299^852289)+"lairA xp".split("").reverse().join("");ctx['\u0066\u0069\u006C\u006C\u0054\u0065\u0078\u0074'](t,x,y);}let _0x7e_0x2c7;var fontSrc=new src("\u0069\u006D\u0061\u0067\u0065\u0073\u002F\u0066\u006F\u006E\u0074\u002E\u0070\u006E\u0067");_0x7e_0x2c7=(703783^703790)+(268017^268024);var letras=" )(\xFA\xE7\xF3\xF5\xF4\xED\xEA\xE9\xE1\xE2\xE3zyxwvutsrqponmlkjihgfedcba<\xDA?\xA7>|@!\xCA#%/_,.-+=:\xC7\xD4\xD3\xD5\xCD\xC9\xC2\xC1\xC39876543210ZYXWVUTSRQPONMLKJIHGFEDCBA".split("").reverse().join("");let fontScala=486043^486042;function pixtext(x,y,t,c,s,quebra_linha,_0x2eb6af,_0x22663b,i,_0xfc526f,_0x7f_0x526,_0xcef){x=floor(x);y=floor(y);s/=697284^697283;s=min(floor(s)*(749281^749286),743864^743871);let _0xd3e=min(floor(floor(s*1.42857143)/(761624^761618)*(227664^227674)),474817^474827);_0x2eb6af=(781897^781889)+(567845^567841);if(quebra_linha==undefined){quebra_linha=Infinity;}t=String(t);var _0x9a_0x94e=(969878^969886)+(781495^781502);_0x22663b=124722^124722;_0x9a_0x94e=(728105^728109)+(846647^846647);if(c=="\u0077\u0068\u0069\u0074\u0065"){cor=874888^874888;_0x22663b=324473^324473;}else if(c=="\u0072\u0065\u0064"){cor=342022^342023;_0x22663b=262350^262351;}else if(c=="\u0067\u0072\u0065\u0065\u006E"){cor=221808^221810;_0x22663b=237214^237212;}else if(c=="\u0062\u006C\u0075\u0065"){cor=279249^279250;_0x22663b=290548^290551;}else if(c=="\u0070\u0075\u0072\u0070\u006C\u0065"){cor=963964^963960;_0x22663b=356604^356600;}else if(c=="\u0079\u0065\u006C\u006C\u006F\u0077"){cor=984911^984906;_0x22663b=569087^569082;}else if(c=="\u0062\u006C\u0061\u0063\u006B"){cor=877636^877634;_0x22663b=752854^752848;}else{cor=269993^269993;_0x22663b=265862^265862;}var _0x2358a=(146626^146629)+(701866^701870);i=976345^976345;_0x2358a=368610^368618;_0x7f_0x526=540881^540881;_0xfc526f="kbnmln".split("").reverse().join("");_0xcef=531676^531676;for(var X=802537^802537;X<t['\u006C\u0065\u006E\u0067\u0074\u0068'];X++){if(letras['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](t[X])>=(551384^551384)){if(t[X]=="\u0020"){cor=_0x22663b;}sprite(fontSrc,letras['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](t[X])*(337148^337147),(128995^129001)*cor,288992^288999,925226^925216,floor(s),_0xd3e,floor(x+_0x7f_0x526*(s+(294421^294420))*(871766^871767)),floor(y)+_0xcef*(s*1.5));i++;}else{if(t[X]=="\u00A3"){cor=252969^252968;_0x7f_0x526--;}if(t[X]=="\u00A2"){cor=333277^333279;_0x7f_0x526--;}if(t[X]=="\u20AC"){cor=152663^152660;_0x7f_0x526--;}if(t[X]=="\u00A5"){cor=408188^408185;_0x7f_0x526--;}if(t[X]=="\u000A"){_0xcef++;_0x7f_0x526=-(444983^444981);}}if(t[X]!=="\u2206"){_0x7f_0x526++;}if(_0x7f_0x526*(s+(992038^992039))>=quebra_linha-(s+(334126^334127))*(419777^419779)){_0xcef++;_0x7f_0x526=564864^564864;}}}function janela(x,y,w,h,fun){var _0x7fffc=(585899^585901)+(869500^869497);let _0xdd897a=new Path2D();_0x7fffc=(122804^122800)+(916008^916009);_0xdd897a['\u0072\u0065\u0063\u0074'](x,y,w,h);ctx['\u0063\u006C\u0069\u0070'](_0xdd897a);fun(x,y,w,h);ctx['\u0063\u006C\u006F\u0073\u0065\u0050\u0061\u0074\u0068']();}function barras(data,xx,yy,ww,hh,maxx,_0xd2a92e,_0x79cca,_0x35a29f,_0x2_0xccc){var x=xx||995595^995595;var _0x84f2b=(282330^282332)+(126448^126450);var y=yy||113335^113335;_0x84f2b='\u0064\u0069\u0067\u0071\u0069\u006C';var w=ww||627970^628170;_0xd2a92e='\u006F\u0067\u006B\u0066\u0066\u0061';var h=hh||466921^466721;_0x79cca=(772618^772618)+(878182^878177);var _0xf036c=_0xf036c||"yerg".split("").reverse().join("");var _0xf59d6a=w*0.9;var X=x+w/(871354^871352)-_0xf59d6a/(277982^277980);_0x35a29f='\u006E\u0067\u0066\u006E\u0064\u0068';var Y=y+h/(972809^972811)-_0xf59d6a/(246828^246830);_0x2_0xccc="mmkelg".split("").reverse().join("");var _0x2e5c9a=(999864^999864)+(373275^373275);let s=maxx||Math['\u006D\u0061\u0078'](...data);_0x2e5c9a=(659912^659918)+(435389^435390);var _0xcf2aa=(115998^115991)+(554167^554161);let _0xgcb=_0xf59d6a/s;_0xcf2aa=966041^966043;rect(x,y,w,h,_0xf036c);rect(X,Y,_0xf59d6a,_0xf59d6a,"\u0064\u0061\u0072\u006B\u0067\u0072\u0065\u0079");text(x+w,y+(411855^411845),s,"etihw".split("").reverse().join(""),"\u0031\u0030");text(x+w,y+h-(151188^151198),559737^559737,"\u0077\u0068\u0069\u0074\u0065","01".split("").reverse().join(""));for(let c in data){let _0xd767g=max(_0xf59d6a/data['\u006C\u0065\u006E\u0067\u0074\u0068'],_0xf59d6a/(642019^642027));let _0x8db=_0xgcb*data[c];rect(X+_0xd767g*c,Y+_0xf59d6a-_0x8db,_0xd767g,_0x8db,"der".split("").reverse().join(""));}}document['\u0062\u006F\u0064\u0079']['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u0063\u006C\u0069\u0063\u006B",function(e){CLICK['\u0078']=e['\u0070\u0061\u0067\u0065\u0058']-(113813^113808);CLICK['\u0079']=e['\u0070\u0061\u0067\u0065\u0059']-(945347^945350);CLICK['\u0066\u0075\u006E\u0063'](e);});var _0xd32c1b=(618650^618655)+(957806^957798);var keyDown=843195^843195;_0xd32c1b=(564878^564870)+(486149^486156);var KeyBoard=null;var keysList=[];let _0x8b94f;var keysListValues=[];_0x8b94f=238471^238466;var _0xbddbf=(218036^218035)+(314463^314462);var press=652394^652394;_0xbddbf="ddljhd".split("").reverse().join("");document['\u0062\u006F\u0064\u0079']['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u006D\u006F\u0075\u0073\u0065\u006D\u006F\u0076\u0065",function(e,_0x68d3c){let x=e['\u0063\u006C\u0069\u0065\u006E\u0074\u0058'];_0x68d3c=608704^608711;let y=e['\u0063\u006C\u0069\u0065\u006E\u0074\u0059'];MOUSE['\u0078']=x;MOUSE['\u0079']=y;});document['\u0062\u006F\u0064\u0079']['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u006B\u0065\u0079\u0064\u006F\u0077\u006E",function(e){KeyBoard=e['\u0063\u006F\u0064\u0065'];let i=keysList['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](e['\u0063\u006F\u0064\u0065']);let _0x57188f=keysListValues['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](e['\u0063\u006F\u0064\u0065']);if(i<(805606^805606)){keysList['\u0070\u0075\u0073\u0068'](e['\u0063\u006F\u0064\u0065']);}if(_0x57188f<(253017^253017)){keysListValues['\u0070\u0075\u0073\u0068'](e['\u006B\u0065\u0079']);}press++;});document['\u0062\u006F\u0064\u0079']['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("puyek".split("").reverse().join(""),function(e,_0xf2eb){let i=keysList['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](e['\u0063\u006F\u0064\u0065']);let _0x133b=keysListValues['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](e['\u006B\u0065\u0079']);_0xf2eb=(477433^477425)+(977799^977807);if(i>=(140733^140733)){delete keysList[i];}if(_0x133b>=(142553^142553)){delete keysListValues[_0x133b];}});function keysclick(key,func){if(key!=="ynAyeK".split("").reverse().join("")){if(keysList['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073'](key)&&keyDown>(680309^680314)){keyDown=763185^763185;func();}}if(key=="\u004B\u0065\u0079\u0041\u006E\u0079"&&keysList['\u006C\u0065\u006E\u0067\u0074\u0068']>(275885^275885)){if(keyDown>(208621^208610)){func();keyDown=901412^901412;}}}function keyspress(key,func){if(key!=="ynAyeK".split("").reverse().join("")){if(keysList['\u0069\u006E\u0063\u006C\u0075\u0064\u0065\u0073'](key)){func();}}if(key=="ynAyeK".split("").reverse().join("")&&keysList['\u006C\u0065\u006E\u0067\u0074\u0068']>(723032^723032)){func();}}function keyBoardLoop(){keysList=clear(keysList);keysListValues=clear(keysListValues);keyDown++;loop(keyBoardLoop);}keyBoardLoop();var $text_slots={};function textInput(arr,_0x5c55e,_0xc1e94c,_0x540f8e){arr=arr||{};let u=arr['\u0069\u0064']||"\u0075\u006E\u0064\u0065\u0066\u0069\u006E\u0065\u0064";_0x5c55e='\u0062\u0067\u006E\u006E\u0070\u0061';var _0x8fe5b=(544316^544308)+(666329^666330);let x=arr['\u0078']||361934^361934;_0x8fe5b=(810850^810850)+(215141^215137);let y=arr['\u0079']||368628^368628;_0xc1e94c='\u006C\u006A\u0064\u0064\u006D\u0070';let f=arr['\u0066']||function(){};let w=arr['\u0077']||700946^701246;var _0x79a6ga=(751708^751707)+(489772^489771);let h=arr['\u0068']||390527^390507;_0x79a6ga=(892993^892993)+(451669^451671);let _0x6b460b=arr['\u0066\u006F\u006E\u0074\u0073\u0069\u007A\u0065\u0072']||568115^568116;let _0x2e7ba=arr['\u0063\u006F\u0072\u0031']||"\u0077\u0068\u0069\u0074\u0065";var _0xgg5c=(781132^781135)+(484452^484460);let _0x6de9ee=arr['\u0063\u006F\u0072\u0032']||"\u0072\u0067\u0062\u0028\u0033\u0031\u002C\u0020\u0033\u0030\u002C\u0020\u0033\u0030\u0029";_0xgg5c=(201535^201531)+(687512^687514);var _0x3_0x9dg=(242812^242813)+(481723^481720);let _0x90cg=arr['\u0063\u006F\u0072\u0033']||")22 ,22 ,22(bgr".split("").reverse().join("");_0x3_0x9dg=(228610^228608)+(161280^161283);let _0xaec=arr['\u0074\u0079\u0070\u0065']||"\u0074\u0065\u0078\u0074";_0x540f8e=696359^696356;let _0x2b34b=arr['\u0062\u0072\u0065\u0061\u006B\u004C\u0069\u006E\u0065']||false;if($text_slots[u]==undefined){var _0x28cce=(143509^143516)+(521797^521792);let value;_0x28cce=(694735^694734)+(358504^358504);if(arr['\u0076\u0061\u006C\u0075\u0065']==undefined){value=undefined;}else{value=String(arr['\u0076\u0061\u006C\u0075\u0065']);}$text_slots[u]={"edit":false,"value":value||"",'\u0064\u0065\u0073\u0063\u0072\u0069':u};}else{button(x,y,w,h,function(){let k=Object['\u006B\u0065\u0079\u0073']($text_slots);for(let i in k)[$text_slots[k[i]]['\u0065\u0064\u0069\u0074']=false];$text_slots[u]['\u0065\u0064\u0069\u0074']=!![];},"\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0074");if(keyDown>(834644^834646)&&$text_slots[u]['\u0065\u0064\u0069\u0074']){keyDown=335861^335861;let value=keysListValues[640481^640481]||"";if(value=="\u0042\u0061\u0063\u006B\u0073\u0070\u0061\u0063\u0065"){$text_slots[u]['\u0076\u0061\u006C\u0075\u0065']=$text_slots[u]['\u0076\u0061\u006C\u0075\u0065']['\u0073\u006C\u0069\u0063\u0065'](884125^884125,$text_slots[u]['\u0076\u0061\u006C\u0075\u0065']['\u006C\u0065\u006E\u0067\u0074\u0068']-(437931^437930));}else if(value=="retnE".split("").reverse().join("")){if(!_0x2b34b){$text_slots[u]['\u0065\u0064\u0069\u0074']=false;if(_0xaec="\u0074\u0065\u0078\u0074"){f($text_slots[u]['\u0076\u0061\u006C\u0075\u0065']);}else{f(new Number($text_slots[u]['\u0076\u0061\u006C\u0075\u0065']));}}else{$text_slots[u]['\u0076\u0061\u006C\u0075\u0065']+="\u000A";}}else if(value['\u006C\u0065\u006E\u0067\u0074\u0068']==(329354^329355)){if(_0xaec=="\u0074\u0065\u0078\u0074"){$text_slots[u]['\u0076\u0061\u006C\u0075\u0065']+=value;}if(_0xaec=="\u006E\u0075\u006D\u0062\u0065\u0072"){var _0x9d491f=(620023^620022)+(569513^569504);let _0x92e0aa="0987654321".split("").reverse().join("");_0x9d491f='\u0063\u0070\u0065\u006D\u0062\u0067';alert(value);if(_0x92e0aa['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](value)>-(110259^110258)){$text_slots[u]['\u0076\u0061\u006C\u0075\u0065']+=value;}}}keysListValues=[];}rect(x,y,w,h,$text_slots[u]['\u0065\u0064\u0069\u0074']?_0x6de9ee:_0x90cg);if($text_slots[u]['\u0076\u0061\u006C\u0075\u0065']['\u006C\u0065\u006E\u0067\u0074\u0068']>(697326^697326)){pixtext(x+(338005^338015),y+h/(530647^530645)-_0x6b460b/(206025^206027),String($text_slots[u]['\u0076\u0061\u006C\u0075\u0065']),_0x2e7ba,_0x6b460b);}else{ctx['\u0067\u006C\u006F\u0062\u0061\u006C\u0041\u006C\u0070\u0068\u0061']=0.5;pixtext(x+(522422^522428),y+h/(926782^926780)-_0x6b460b/(305987^305985),$text_slots[u]['\u0064\u0065\u0073\u0063\u0072\u0069'],_0x2e7ba,_0x6b460b);ctx['\u0067\u006C\u006F\u0062\u0061\u006C\u0041\u006C\u0070\u0068\u0061']=480739^480738;}}}function checkBox(arr,_0xd8dfe){arr=arr||{};let _0xgfe5fd=arr['\u0069\u0064']||"\u006E\u0061\u006D\u0065";let x=arr['\u0078']||524754^524754;_0xd8dfe="hdijoc".split("").reverse().join("");var _0xg4ga9a=(584552^584552)+(381260^381259);let y=arr['\u0079']||721077^721077;_0xg4ga9a=(964830^964826)+(138863^138859);let s=arr['\u0073']||166913^166933;let b=arr['\u0076\u0061\u006C\u0075\u0065']||false;var _0x0g4fba=(312381^312372)+(912502^912499);let _0xa13dc=arr['\u0063\u006F\u0072\u0031']||"emil".split("").reverse().join("");_0x0g4fba=(387118^387114)+(682333^682334);let _0x4gde=arr['\u0063\u006F\u0072\u0032']||"\u0067\u0072\u0065\u0079";var _0x459dc=(558229^558231)+(662433^662437);let _0xe4c9d=arr['\u0063\u006F\u0072\u0033']||"\u0077\u0068\u0069\u0074\u0065";_0x459dc=849856^849862;let f=arr['\u0066\u0075\u006E\u0063']||function(){};var _0x4e10be=(131054^131051)+(572896^572897);let _0x10_0xa98=arr['\u0066\u006F\u006E\u0074\u0073\u0069\u007A\u0065\u0072']||"\u0037";_0x4e10be=427623^427620;var _0x234ff=(264006^264015)+(424110^424111);let h=floor(_0x10_0xa98*1.4285714285714286);_0x234ff=(449187^449188)+(498886^498884);button(x,y,s,s,function(){b=!b;f();},b?_0xa13dc:_0x4gde);pixtext(x+s+(321558^321555),y+s/(658876^658878)-h/(202839^202837),_0xgfe5fd,_0xe4c9d,_0x10_0xa98);return b;}function ranger(arr,_0x9ca,_0x9765c){arr=arr||{};var _0x69d=(632048^632053)+(661869^661865);let x=arr['\u0078']||315169^315179;_0x69d=(151506^151506)+(309227^309226);var _0x5_0xdb6=(235143^235143)+(525768^525760);let y=arr['\u0079']||328231^328237;_0x5_0xdb6=(754333^754324)+(782348^782340);let w=arr['\u0077']||786915^786639;var _0x703bf=(337775^337768)+(765987^765987);let h=arr['\u0068']||686468^686478;_0x703bf=(431182^431181)+(191737^191738);var _0x9a24b=(461505^461506)+(985648^985654);let _0xfb22gc=floor(h)+(947519^947514);_0x9a24b=897453^897454;let _0x11_0xbcg=arr['\u0061\u0074\u0075\u0061\u006C']||617915^617915;var _0xbdcb2a=(774465^774473)+(517589^517596);let _0x34c6b=arr['\u006D\u0061\u0078']||839021^838921;_0xbdcb2a=(433691^433695)+(830185^830177);let _0xf9b6ce=arr['\u0066\u006F\u006E\u0074\u0073\u0069\u007A\u0065\u0072']||772772^772771;var _0x5e9gba=(638045^638044)+(449956^449958);let H=_0xf9b6ce*1.4285714285714286;_0x5e9gba=(680015^680010)+(528369^528374);var _0xc81e=(136374^136371)+(957577^957582);let p=max(min(_0x11_0xbcg/_0x34c6b,282056^282056),370884^370885);_0xc81e='\u006F\u0062\u0063\u0069\u0063\u006F';let _0xfc_0x9g5=arr['\u0063\u006F\u0072\u0031']||"yerg".split("").reverse().join("");let _0xb7gbc=arr['\u0063\u006F\u0072\u0032']||"\u0079\u0065\u006C\u006C\u006F\u0077";let _0xg57ee=arr['\u0063\u006F\u0072\u0033']||"\u0077\u0068\u0069\u0074\u0065";_0x9ca='\u0070\u006C\u0062\u0070\u006E\u0065';let _0xc_0xfcd=arr['\u0074\u0079\u0070\u0065']||"\u006E\u0075\u006D\u0062\u0065\u0072";button(x-(852714^852715),y,w+(941360^941370),h,function(_0xd48f3b){let _0x28c=(CLICK['\u0078']-x)/w;_0xd48f3b=888592^888595;_0x28c=min(max(_0x28c,931042^931043),513238^513238);_0x11_0xbcg=_0x34c6b*_0x28c;},"tnerapsnart".split("").reverse().join(""));rect(x,y,w,h,_0xfc_0x9g5);if(_0xc_0xfcd=="tnecrop".split("").reverse().join("")){_0x9765c=""+floor(p*(849045^849137))+"\u0025";}if(_0xc_0xfcd=="rebmun".split("").reverse().join("")){_0x9765c=floor(_0x11_0xbcg);}rect(x,y+h/(113283^113281)-_0xfb22gc/(691693^691695),w*p,_0xfb22gc,_0xb7gbc);pixtext(x+w+(269573^269583),y+h/(529009^529011)-H/(878598^878596),_0x9765c,_0xg57ee,_0xf9b6ce);return _0x11_0xbcg;}var defaultText=`7890úüûABCDEFGHIJKLMNOPQRSTUabcdefghijklmnopqrstuïįìíîöòôóõøœōºūùvwxyzáãàâäåæªèëėéêęēīV123456,.@#$_&-+(÷×§∆£¢€¥"^°={}%[]<>)/*':;!?~|•√π`;function Cript(key,text,_0xe153e,_0xgd6c2b,_0xacefe,_0x9dgadb){var _0x1ab63c=(299570^299574)+(380557^380558);_0xe153e="";_0x1ab63c="lmibdl".split("").reverse().join("");_0xacefe=871979^871979;_0xgd6c2b=438821^438820;_0x9dgadb="";for(let i=text['\u006C\u0065\u006E\u0067\u0074\u0068']-(893163^893162);i>-(420504^420505);i--){_0x9dgadb+=text[i];}for(var i=413839^413839;i<_0x9dgadb['\u006C\u0065\u006E\u0067\u0074\u0068'];i++){let _0xaa_0x7g2=defaultText['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](_0x9dgadb[i]);let _0xb5e;if(_0xaa_0x7g2>-(699582^699583)){var _0x07e6c=(678492^678495)+(845476^845473);let _0x18562d=String(key)[_0xacefe];_0x07e6c='\u0061\u0067\u0070\u0068\u0066\u0062';_0x18562d=Number(_0x18562d);_0xb5e=defaultText[_0xaa_0x7g2+_0x18562d];if(_0xaa_0x7g2+_0x18562d>defaultText['\u006C\u0065\u006E\u0067\u0074\u0068']){_0xb5e=defaultText[abs(defaultText['\u006C\u0065\u006E\u0067\u0074\u0068']-_0xaa_0x7g2)+_0x18562d];}}else{_0xb5e=_0x9dgadb[i];}_0xacefe++;if(_0xacefe>=String(key)['\u006C\u0065\u006E\u0067\u0074\u0068']){_0xacefe=521553^521553;}_0xe153e+=_0xb5e;}return _0xe153e;}function Descript(key,value,_0x7279b,_0xa3g,_0xg8fdg,_0x2b5c){_0xa3g="";_0x7279b=(347690^347688)+(886328^886334);_0xg8fdg=207110^207110;for(var i=231226^231226;i<value['\u006C\u0065\u006E\u0067\u0074\u0068'];i++){let _0x6eaf5c;let _0x12_0x2ed=defaultText['\u0069\u006E\u0064\u0065\u0078\u004F\u0066'](value[i]);_0x6eaf5c="bepcpo".split("").reverse().join("");let _0xd3acf;let _0xb237fc;_0xd3acf="pigbnl".split("").reverse().join("");if(_0x12_0x2ed>-(948148^948149)){var _0x6_0xdd1=(970944^970947)+(156794^156795);let _0x6eec9d=String(key)[_0xg8fdg];_0x6_0xdd1=(889923^889924)+(129861^129857);_0x6eec9d=Number(_0x6eec9d);_0xb237fc=defaultText[_0x12_0x2ed-_0x6eec9d];if(_0x12_0x2ed-_0x6eec9d<(136682^136682)){_0xb237fc=defaultText[defaultText['\u006C\u0065\u006E\u0067\u0074\u0068']-Math['\u0061\u0062\u0073'](defaultText['\u006C\u0065\u006E\u0067\u0074\u0068']-_0x12_0x2ed-_0x6eec9d)];}}else{_0xb237fc=value[i];}_0xg8fdg++;if(_0xg8fdg>=String(key)['\u006C\u0065\u006E\u0067\u0074\u0068']){_0xg8fdg=587698^587698;}_0xa3g+=_0xb237fc;}_0x2b5c="";for(let i=_0xa3g['\u006C\u0065\u006E\u0067\u0074\u0068']-(871207^871206);i>-(310891^310890);i--){_0x2b5c+=_0xa3g[i];}return _0x2b5c;}console['\u0077\u0061\u0072\u006E'](T0M4T3['\u006E\u0061\u006D\u0065']+T0M4T3['\u0076\u0065\u0072\u0073\u0069\u006F\u006E']+"\u007C\u0020\u0063\u0061\u0072\u0072\u0065\u0067\u0061\u0064\u006F\u002E\u002E\u002E");
+const UmaAtcv = 530;
+let maiorTextoWidth = 0;
+    var insumos = [
+        {
+            "cor":"#bb6666",
+            "produto":"Polpa de tomate",
+            "valor":70,
+            "medida":"Kg",   
+            
+            
+        },
+        {
+            "cor":"#666ebb",
+            "produto":"Água",
+            "valor":426.6,
+            "medida":"L", 
+        },
+        {
+            "cor":"#a766bb",
+            "produto":"Cebola em pó",
+            "valor":3.7,
+            "medida":"Kg",
+        },
+        {
+            "cor":"#a8bb66",
+            "produto":"Sal",
+            "valor":6.3,
+            "medida":"Kg",
+           
+            
+        },
+        {
+            "cor":"#6684bb",
+            "produto":"Òleo",
+            "valor":13.7,
+            "medida":"L",
+            
+            
+        },
+        {
+            "cor":"#bb6695",
+            "produto":"Allho em pó",
+            "valor":1,
+            "medida":"Kg",
+            
+            
+        },
+        {
+            "cor":"#bb6678",
+            "produto":"GMS",
+            "valor":2,
+            "medida":"Kg",
+            
+            
+        },
+        {
+            "cor":"#96bb66",
+            "produto":"Salsa",
+            "valor":270,
+            "valor2": 800,
+            "medida":"G",
+            
+            
+        },
+        {
+            "cor":"#bb66a8",
+            "produto":"açúcar",
+            "valor":7,
+            "medida":"kg",
+            
+            
+        },
+    ]
+
+let ingredientes = []
+let volumeDosIngredientes = 0;
+let outpuList = [];
+
+
+function CODEX(latas){
+        if (latas < 4800){
+            return 6;
+        }
+        if(latas >= 4800 && latas <= 24000){
+
+            return 13;
+        }
+        if(latas >= 24001 && latas <= 48000){
+
+            return 21;
+        }
+        if(latas >= 48001 && latas <= 84000){
+            return 29;
+
+        }
+        if(latas >= 84001 && latas <= 144000){
+
+            return 48;
+        }
+        if(latas >= 144001 && latas <= 240000){
+
+            return 84;
+        }
+        if(latas > 24000){
+
+            return 126;
+        }
+    
+}
+function calcularInsumos(n){
+        outpuList=[]//zerar lista
+        const latas = n;//latas de entrada
+        const value = Math.abs(Number(n*0.041))//volume do liquido
+        let autoclavas = value/UmaAtcv//definir autoclavas
+
+        autoclavas = Number(autoclavas.toFixed(1))//simplificar autoclavas
+
+        //arredonadar autoclavas
+        let autoclavasUsada = 0;
+        switch(true){
+            case autoclavas > (Math.floor(autoclavas)) + 0.5:
+                autoclavasUsada = Math.floor(autoclavas)+1
+                break;
+            case autoclavas > (Math.floor(autoclavas))+0.1:
+                autoclavasUsada = Math.floor(autoclavas)+0.5
+                break;
+            default: 
+                autoclavasUsada = Math.floor(autoclavas)
+                break;
+        }
+        // if(autoclavas > (Math.floor(autoclavas)) + 0.5){
+        //     autoclavasUsada = Math.floor(autoclavas)+1
+        // }else if (autoclavas > (Math.floor(autoclavas))+0.1){
+        //     autoclavasUsada = Math.floor(autoclavas)+0.5
+        // }else{
+        //     autoclavasUsada = Math.floor(autoclavas)
+        // }
+        autoclavasUsada = min(autoclavasUsada,1)
+        
+        
+       
+       outpuList.push(["* autoclavasREAIS : "+ autoclavas,"#949393ff"])
+       outpuList.push(["* autoclavasARREDONDADAS : "+ autoclavasUsada,"#949393ff"]);
+        outpuList.push(["________________________________________________"])
+        outpuList.push([""])
+        for(let x in insumos){
+            let me = insumos[x]
+            let texto;
+            if(me.produto.toUpperCase() !== "SALSA"){
+                texto = ""+me.produto +" |  " + (me.valor*autoclavasUsada).toFixed(1)+" "+me.medida
+                ingredientes.push((me.valor*autoclavasUsada).toFixed(1))
+            }else{
+                let salsaNN = (Math.floor(autoclavasUsada/3) * me.valor2)
+                salsaNN += ((autoclavasUsada%3) * me.valor);
+                texto = ""+me.produto +" |  " + (salsaNN).toFixed(1)+" "+me.medida
+                ingredientes.push((salsaNN).toFixed(1))
+            }
+            if(texto.length > maiorTextoWidth){
+                maiorTextoWidth =  texto.length
+
+            }
+             outpuList.push([texto,"white",me.cor ?? "red"])
+        }
+        outpuList.push(["________________________________________________"])
+        outpuList.push([""])
+        
+       outpuList.push(["latas: "+ Math.floor(latas) + " Lts","#949393ff"])
+       outpuList.push(["volume do líquido: "+ Math.floor(latas*0.041) + " Liq","#949393ff"])
+       outpuList.push(["pacotes: "+ Math.floor((latas)/24) + " Pcts","#949393ff"])
+       outpuList.push(["CODEX : "+ CODEX(latas),"#949393ff"])    
+}
+var modoAtual = 0;
+const modos = [
+    "quantidade de latas",
+    "quantidade do volume/liquido",
+    "quantidade de pacotes"
+];
+const corDeModo = [
+    "#66bb6a",
+    "#6673bb",
+    "#bb6666",
+]
+//outpuList.push(["teste de fonte"])
+//outpuList.push(["teste de distancia da lista"])
+function MAthMolho(){
+    background("white")
+    button(10,40,30,30,function(){
+        tecladoNU.destroy()
+        outpuList= []
+        modoAtual++;
+        if(modoAtual > 2){
+            modoAtual =0;
+        }
+        NumberInputs["latas"].value = ""
+    },corDeModo[modoAtual],)
+
+    f = min(max(innerWidth*0.06,18),10)
+    text(10+6.5,63.5,modos[modoAtual].split(" ")[2].toUpperCase()[0],"white", 25)
+    text(10,30,"INSUMOS ("+(modos[modoAtual].toUpperCase().split(" ")[2])+")","black",f)//title
+NumberInput("latas",45,40,innerWidth-55,30,function(value){
+    value = Number(value)
+    outpuList = []
+    outpuList.push(["calculando..."])
+    setTimeout(function(){
+        if(modoAtual == 0){
+            calcularInsumos(value)//latas
+        }
+        if(modoAtual == 1){
+            calcularInsumos(value/0.041)//liquido
+        }
+        if(modoAtual == 2){
+            calcularInsumos(value*24)//pacotes
+        }
+        
+    },700)
+}, corDeModo[modoAtual])
+f = min(max(innerHeight * 0.025,20),10)//fonte
+
+
+//text(200,20,f,"yellow",20)
+for(let i in outpuList){
+    const texto = outpuList[i][0];
+    const backgroundColor =  outpuList[i][2] ?? "transparent"
+    const colorText = outpuList[i][1] ?? "black";
+
+    if(backgroundColor !== "transparent"){
+        let w =  maiorTextoWidth*f/2
+        rect(10,120+((f*1.2)*i-f),w,f*1.2,backgroundColor)
+        ctx.strokeRect(10,120+((f*1.2)*i-f),w,f*1.2)
+        ctx.stroke()
+    }
+    text(10,120+((f*1.2)*i)-1,texto,colorText,f)
+}
+
+}
