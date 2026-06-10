@@ -3,7 +3,9 @@ var global = {//aqui é onde vou guardar as variáves ou constantes mais importa
 
 
 };
+
 var APP = {
+    "online":false,
     "version":"03-2026",
     "tela":{
         "atual":"MAthMolho",
@@ -22,12 +24,31 @@ var APP = {
     }
 }
 
+let drawPage = false;
+fetch("https://raw.githubusercontent.com/hr14-a/MathMolho/refs/heads/main/status.json").then(a => a.json())
+.then(function(a) {
+    if(a.status == "online"){
+        APP.online = true
+    }
+    drawPage = true;
+
+
+})
 
 function MAIN()
 {
     resizer();
     try {
-        eval(APP.tela.atual+"();")
+        if(drawPage){
+
+            if(APP.online){
+    
+                eval(APP.tela.atual+"();")
+            }else{
+                rect(0,0,innerWidth,innerHeight,"blue")
+                text(30,30,"Site fora de ar! fale com Heytor ","white",20)
+            }
+        }
     }catch{
         
     }
