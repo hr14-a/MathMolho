@@ -6,7 +6,7 @@ var global = {//aqui é onde vou guardar as variáves ou constantes mais importa
 
 var APP = {
     "online":false,
-    "version":"03-2026",
+    "version":"03-2026", 
     "tela":{
         "atual":"MAthMolho",
         "anterior":"",
